@@ -1,0 +1,24 @@
+# --- Стандартный Unity игнор ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# --- Файлы ОС и IDE ---
+.DS_Store
+Thumbs.db
+.vs/
+.idea/
+.vscode/
+*.sln
+*.csproj
+*.unityproj
+
+# --- Самое важное ---
+# Мы НЕ игнорируем .meta файлы
+# Мы НЕ игнорируем ProjectSettings (системную папку)
+# Мы НЕ игнорируем Packages (манифест зависимостей)
